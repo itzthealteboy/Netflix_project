@@ -1,3 +1,4 @@
 # Exploring Netflix Project Data Analysis Using MySQL
+![Netflix](https://github.com/user-attachments/assets/c0c8611c-6582-485e-8ce3-184fe2994ec3)
 
-![Netflix 2](https://github.com/user-attachments/assets/bb7187a2-86ce-4019-b357-90382aaac8b5)
+
