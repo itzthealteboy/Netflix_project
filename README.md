@@ -1,1 +1,1 @@
-# Netflix_project
+# Exploring Netflix Project Data Analysis Using MySQL
