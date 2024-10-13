@@ -14,12 +14,12 @@ In a recent project of a detailed analysis of Netflix movies and TV shows, I use
 # Dataset
 The data for the project is sourced from Kaggle dataset :
  * Dataset Link : https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv
-SELECT * FROM netflix.titles;
+
 
 ## Business Problem and Solution
 
 ### 1. Count the number of TV shoes and movies
-''''sql
+```sql
 SELECT COUNT(*)
 FROM titles;
-''''
+```
