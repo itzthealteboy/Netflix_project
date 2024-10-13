@@ -19,11 +19,13 @@ The data for the project is sourced from Kaggle dataset :
 ## Business Problem and Solution
 
 ### 1. Count the number of TV shoes and movies
+
 ```sql
 SELECT COUNT(*)
 FROM titles;
 ```
 ### 2.Find the most common rating for TV & Shows
+
 ```sql
 SELECT type,
 	   age_certification
@@ -36,6 +38,7 @@ FROM
 ;
 ```
 ### 3. List all movies released at a a particular year
+
 ```sql
 SELECT *
 FROM titles
@@ -44,6 +47,7 @@ AND type = 'MOVIE'
 ;
 ``` 
 ### 4. Find the top 10 countries with the most content
+
 ```sql
 WITH RECURSIVE prod_countr AS (
     -- Get the first animal from each row
@@ -66,6 +70,7 @@ ORDER BY 2 DESC
 LIMIT 10;
 ```
 ### 5. Identify the longest movie
+
 ```sql
 SELECT CONCAT(runtime, ' mins') AS time
 FROM titles;
@@ -90,6 +95,7 @@ ORDER BY 2 DESC;
 ```
 
 ### 6. Find the content added in the last 5 years where the current year is 2014
+
 ```sql
 -- Looking for the last time movie was updated 
 SELECT *
@@ -105,6 +111,7 @@ WHERE release_year BETWEEN '2010' AND '2014'
 ```
 
 ### 7. Find the most popular TV shows or movies in each year
+
 ```sql
 SELECT title,release_year, tmdb_popularity
 FROM( 
@@ -117,6 +124,7 @@ WHERE ranking = 1
 ;
 ```
 ### 8. The highest human rating shows in each year
+
 ```sql
 SELECT title,release_year, imdb_score, type
 FROM( 
@@ -130,6 +138,7 @@ AND type = 'SHOW'
 ;
 ```
 ### 9. Count the content item in each genre
+
 ```sql
 WITH RECURSIVE content AS (
     -- Get the first genre from each row
@@ -152,6 +161,7 @@ ORDER BY 2 DESC
 ;
 ```
 ### 10. Find the average release year for content by US on netflix
+
 ```sql
 SELECT release_year,COUNT(release_year)
 FROM titles
@@ -160,6 +170,7 @@ GROUP BY release_year
 ORDER BY 1 DESC;
 ```
 ### 11. List all movies that are documentation
+
 ```sql
 select title, genres, type
 from titles
@@ -178,4 +189,6 @@ This project highlights my SQL skills essential for data analyst roles and is pa
 
 ### For more content on my data analyst skills on data-related topics, make sure to follow me on social media 
 *LinkedIn :https://www.linkedin.com/in/olajubu-olasubomi-980418239?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7HCbaVsqR5%2BFlIub3KESrg%3D%3D
-Email address: olasubomiolajubu@gmail.com
+*Email address: olasubomiolajubu@gmail.com
+
+Thank you for your support, and I look forward to connect with you!
