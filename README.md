@@ -16,8 +16,10 @@ The data for the project is sourced from Kaggle dataset :
  * Dataset Link : https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv
 SELECT * FROM netflix.titles;
 
--- total content
-'''sql
+## Business Problem and Solution
+
+### 1. Count the number of TV shoes and movies
+''''sql
 SELECT COUNT(*)
 FROM titles;
-'''
+''''
