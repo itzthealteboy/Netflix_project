@@ -189,6 +189,7 @@ This project highlights my SQL skills essential for data analyst roles and is pa
 
 ### For more content on my data analyst skills on data-related topics, make sure to follow me on social media 
 *LinkedIn :https://www.linkedin.com/in/olajubu-olasubomi-980418239?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7HCbaVsqR5%2BFlIub3KESrg%3D%3D
+
 *Email address: olasubomiolajubu@gmail.com
 
 Thank you for your support, and I look forward to connect with you!
