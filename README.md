@@ -23,3 +23,15 @@ The data for the project is sourced from Kaggle dataset :
 SELECT COUNT(*)
 FROM titles;
 ```
+### 2.Find the most common rating for TV & Shows
+```sql
+SELECT type,
+	   age_certification
+FROM
+      (SELECT type, age_certification, COUNT(age_certification), RANK() OVER(PARTITION BY type ORDER BY COUNT(age_certification ) DESC) AS ranking
+       FROM titles
+       GROUP BY 1,2
+	   ORDER BY 4 DESC) AS t1
+	    WHERE ranking = 1 
+;
+```
