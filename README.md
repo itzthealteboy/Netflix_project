@@ -167,3 +167,14 @@ where genres = 'documentation'
 ANd type = 'MOVIE'
 ;
 ```
+
+### INSIGHTS AND CONCLUSION
+* Content Distribution: The dataset comprises a diverse collection of movies and TV shows, featuring a wide array of ratings and genres.
+* Common Ratings: Insights into the common ratings provide a deeper understanding of the intended audience for the content.
+* Location Analysis : Location influences themes, cultural references, and audience relatability in movies and TV shows, shaping their overall narrative and appeal.
+
+### AUTHOR - OLAJUBU OLASUBOMI
+This project highlights my SQL skills essential for data analyst roles and is part of my portfolio. For questions, feedback, or collaboration, please reach out!
+
+### For more content on my data analyst skills on data-related topics, make sure to follow me on social media 
+*LinkedIn :
