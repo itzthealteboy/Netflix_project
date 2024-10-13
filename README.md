@@ -10,3 +10,7 @@ In a recent project of a detailed analysis of Netflix movies and TV shows, I use
  * Examine the highest common rating for movies and TV shows
  * Identify the top contents based on years, countries
  * Analyze other categories based on specific criteria and keywords
+
+# Dataset
+The data for the project is sourced from Kaggle dataset :
+ * Dataset Link : https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv
